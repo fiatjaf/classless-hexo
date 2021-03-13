@@ -10,3 +10,7 @@ theme_url:
 date_format: 'MMMM Do YYYY'
 show_excerpts: true
 read_more: 'Read more...'
+
+# Configure your own head banner image(url), and will replace the randomly randered image
+head_banner_image: 
+
