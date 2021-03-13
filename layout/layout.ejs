@@ -66,15 +66,17 @@ fetch('https://api.github.com/repos/fiatjaf/classless/contents/themes')
       <p><%= config.description %></p>
     </aside>
   </header>
-  <nav>
-    <ul>
-      <% theme.nav.forEach(item => { %>
-      <li>
-        <a href="<%= item.url %>"><%= item.label %></a>
-      </li>
-      <% }) %>
-    </ul>
-  </nav>
+  <% if (theme.nav) { %>
+    <nav>
+      <ul>
+        <% theme.nav.forEach(item => { %>
+        <li>
+          <a href="<%= item.url %>"><%= item.label %></a>
+        </li>
+        <% }) %>
+      </ul>
+    </nav>
+  <% } %>
   <main>
     <%- body %>
   </main>

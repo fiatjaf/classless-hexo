@@ -1,11 +1,12 @@
 theme: 
 commit_sha: 
 theme_url: 
-nav:
-  - label: Home
-    url: /
-  - label: Archives
-    url: /archives/
+# if nav need
+# nav:
+#   - label: Home
+#     url: /
+#   - label: Archives
+#     url: /archives/
 date_format: 'MMMM Do YYYY'
 show_excerpts: true
 read_more: 'Read more...'
